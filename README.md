@@ -15,55 +15,59 @@
 <!-- TABLE OF CONTENTS -->
 <h2 align="center">Table of Contents</h2>
 
-- [About the Project](#about-the-project)
-   - [Project Preview](#project-preview)
-   - [Built With](#built-with)
-- [Installation](#installation)
+- [Built With](#built-with)
+- [How to Install Locally](#how-to-install-locally)
 - [License](#license)
-- [Contributing](#contributing)
-- [Contact](#contact)
-<!-- ABOUT THE PROJECT -->
-
-<h2 align="center">About the Project</h2>
-
-> There are a lot of README templates out there on GitHub, but however, most of them didn't align with my needs and so I created this personalized one. My intention was to create  README.md template that you'll be able to use in most of your repositories with minimal modifications.  
-
-Here's why it's so awesome:  
-
-- ***You should focus on creating something amazing instead of worrying about a README.md that you might need to build from scratch.*** 😁  
-- ***It's a template repository, so essentially you can just generate a README.md for your repository without problems.*** ✅  
-- ***You shouldn't repeat the process of building a README.md again and again from scratch because you're awesome.*** 🖖  
-
-<!-- Preview -->
-<h2 align="center">Project Preview</h2>
-
-<p align="center"><img src="img/grid_image1.png" height=300 width=700/></p>
 
 <!-- BUILT WITH -->  
 
-<h2 align="center">Built With</h2>
-
-> This section should list any major frameworks that you built your project using either as `text` or as `badges`. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.  
+<h2 align="center">Built With</h2>  
 
 <p align="center">
-   <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
-   <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
    <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-   <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-   <img src="https://img.shields.io/badge/markdown-%23000000.svg?&style=for-the-badge&logo=markdown&logoColor=white"/>
+   <img src="https://img.shields.io/badge/nodejs%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
 </p>  
 
 <!-- INSTALLATION -->
-<h2 align="center">Installation</h2>
+<h2 align="center">How to Install Locally</h2>
 
 1. Fork and clone this repository using  
 
 ```
-  git clone https://github.com/sandipan_2224/My-README.md-Template.git
-  cd My-README.md-Template 
+  git clone https://github.com/sandip2224/NoteIO.git
+  cd NoteIO
 ```  
 
-2. Add required steps to get the project up and running.  
+2. Install reqired dependencies and move to working directory using
+
+```
+   npm install
+   cd src
+```
+
+3. Add a new note using
+
+```
+   node app.js add --title="<TITLE>" --body="<NOTE-DESCRIPTION>"
+```
+
+4. Delete an existing note using
+
+```
+   node app.js del --title="<TITLE>"
+```
+
+5. Explore the contents of a note using
+
+```
+   node app.js open --title="<TITLE>"
+```
+
+6. List out all existing notes using
+
+```
+   node app.js logs
+```
 
 <!-- LICENSE -->  
 
@@ -71,13 +75,6 @@ Here's why it's so awesome:
 
 Distributed under the MIT License. See `LICENSE` for more information.  
 
-<!-- CONTRIBUTING -->
-<h2 align="center">Contributing</h2>
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request  
+ <div align="center">
+  <img src="https://img.shields.io/badge/Please%20star%20if%20you%20like%20it-yellow?logo=Southwest%20Airlines&style=for-the-badge" width="300" height="35"/>
+ </div>
