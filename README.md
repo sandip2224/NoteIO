@@ -1,15 +1,15 @@
-<h2 align="center">&lt;Project Title&gt;</h2>
+<h1 align="center">Note IO</h1>
 
 <p align="center">
-   <img src="img/doc_logo.png" alt="Logo" height=95 width=95/>
+   <img src="img/post-it.png" alt="Logo" height=95 width=95/>
 </p>
 <!-- PROJECT LOGO -->
   <p align="center">
-    <a href="https://github.com/sandip2224/My-README.md-Template">View Demo</a>
+    <a href="https://github.com/sandip2224/NoteIO">View Demo</a>
     ·
-    <a href="https://github.com/sandip2224/My-README.md-Template/issues">Report Bug</a>
+    <a href="https://github.com/sandip2224/NoteIO/issues">Report Bug</a>
     ·
-    <a href="https://github.com/sandip2224/My-README.md-Template/issues">Request Feature</a>
+    <a href="https://github.com/sandip2224/NoteIO/issues">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
