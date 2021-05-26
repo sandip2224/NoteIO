@@ -1,4 +1,4 @@
-<h1 align="center">Note IO</h1>
+<h1 align="center">NoteIO</h1>
 
 <p align="center">
    <img src="img/post-it.png" alt="Logo" height=95 width=95/>
