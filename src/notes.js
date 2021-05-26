@@ -1,10 +1,5 @@
 const chalk=require('chalk')
-const { LOADIPHLPAPI } = require('dns')
 const fs=require('fs')
-
-const getNote=() =>{
-    return "Your notes"
-}
 
 const addNote=(title, body) =>{
     const notes= loadNotes()
@@ -79,7 +74,6 @@ const saveNotes=function(notes){
 }
 
 module.exports={
-    getNote: getNote,
     addNote: addNote,
     removeNote: removeNote,
     listNotes: listNotes,
