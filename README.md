@@ -20,39 +20,39 @@
 <!-- INSTALLATION -->
 <h2 align="center">How to Install Locally</h2>
 
-1. Fork and clone this repository using  
+**1. Fork and clone this repository using**
 
 ```
   git clone https://github.com/sandip2224/NoteIO.git
   cd NoteIO
 ```  
 
-2. Install reqired dependencies and move to working directory using
+**2. Install reqired dependencies and move to working directory using**
 
 ```
    npm install
    cd src
 ```
 
-3. Add a new note using
+**3. Add a new note using**
 
 ```
    node app.js add --title="<TITLE>" --body="<NOTE-DESCRIPTION>"
 ```
 
-4. Delete an existing note using
+**4. Delete an existing note using**
 
 ```
    node app.js del --title="<TITLE>"
 ```
 
-5. Explore the contents of a note using
+**5. Explore the contents of a note using**
 
 ```
    node app.js open --title="<TITLE>"
 ```
 
-6. List out all existing notes using
+**6. List out all existing notes using**
 
 ```
    node app.js logs
@@ -63,7 +63,3 @@
 <h2 align="center">License</h2>
 
 Distributed under the MIT License. See `LICENSE` for more information.  
-
- <div align="center">
-  <img src="https://img.shields.io/badge/Please%20star%20if%20you%20like%20it-yellow?logo=Southwest%20Airlines&style=for-the-badge" width="300" height="35"/>
- </div>
