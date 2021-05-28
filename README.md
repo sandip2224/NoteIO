@@ -1,5 +1,5 @@
 <p align="center">
-   <img src="img/banner.png" alt="Logo" height=95 width=95/>
+   <img src="img/banner.png" alt="Logo"/>
 </p>
 <!-- TABLE OF CONTENTS -->
 <h2 align="center">Table of Contents</h2>
