@@ -1,17 +1,6 @@
-<h1 align="center">NoteIO</h1>
-
 <p align="center">
-   <img src="img/post-it.png" alt="Logo" height=95 width=95/>
+   <img src="img/banner.png" alt="Logo" height=95 width=95/>
 </p>
-<!-- PROJECT LOGO -->
-  <p align="center">
-    <a href="https://github.com/sandip2224/NoteIO">View Demo</a>
-    ·
-    <a href="https://github.com/sandip2224/NoteIO/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/sandip2224/NoteIO/issues">Request Feature</a>
-  </p>
-
 <!-- TABLE OF CONTENTS -->
 <h2 align="center">Table of Contents</h2>
 
